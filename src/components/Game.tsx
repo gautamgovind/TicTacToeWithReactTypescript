@@ -5,7 +5,7 @@ import Board from "./Board";
 
 const Game = ()=>{
     return(
-        <div>
+        <div className="game-container">
             <div className="board-row">
                 <Board />
             </div>

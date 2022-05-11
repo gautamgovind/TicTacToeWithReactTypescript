@@ -61,7 +61,7 @@ const Board = () =>{
     return(
         <>
         {!winner && <p>Player-{currentPlayer} It's your turn:</p>}
-        {winner && winner!=='Tie' && <p>COngratulation Player {winner}</p>}
+        {winner && winner!=='Tie' && <p>Congrats Player - {winner}!!!</p>}
         {winner && winner==='Tie' && <p>No one won!!</p>}
 
         <div className="grid">
@@ -76,7 +76,9 @@ const Board = () =>{
                 )
             })}
         </div>
-        <button className="reset" onClick={reset}>Reset</button>
+        <div className="reset-container">
+            <button className="reset" onClick={reset}>Reset</button>
+        </div>
         </>
     )
 }
