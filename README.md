@@ -2,7 +2,8 @@ THis is application is designed and developed by Gautam Govind!!
 
 To play tic tac toe game, follow the below step:
 clone the project: 
-###  `git clone https://github.com/gautamgovind/TicTacToeWIthReactandTypescript`
+###  `git clone https://github.com/gautamgovind/TicTacToeWithReactTypescript`
+
 ### `npm install`
 ### `npm start`
 Runs the app in the development mode.\
