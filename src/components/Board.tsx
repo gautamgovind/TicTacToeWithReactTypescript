@@ -53,7 +53,7 @@ const Board = () =>{
         if(gameEnd){
             setWinner(gameEnd)
         }
-        if(!gameEnd && !square.filter((item)=>!item?.length)) {
+        if(!gameEnd && !square.filter((item)=>!item).length) {
             setWinner("Tie")
         }
     });
